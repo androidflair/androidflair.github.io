@@ -28,11 +28,18 @@ $('.ripple').on('mousedown', function(event) {
   category = $("#entry_0").val();
   
   
+  
+  
+  if(category.length == 0 || flairtext.length == 0|| proof.length == 0 || name.length == 0)
+  {
+      alert("One or more field has been left blank.");
+  }
+    else{
       var toopen = "%23Flair%20Application%3A%0A%0A--------------%0A%0A*Company%20Name%3A*%0A%0A%3E" + name + "%0A%0A*Requested%20Flair%20Text%3A*%0A%0A%3E" + flairtext + "%0A%0A*Flair%20Category%3A*%0A%0A%3E" + category + "%0A%0A*Proof%3A*%0A%0A%3E" + proof + "%0A%0A";
 
       window.open("http://www.reddit.com/message/compose?to=%2Fr%2FAndroid&message=" + toopen);
   
-    
+    }
   
 });
 
