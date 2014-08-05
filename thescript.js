@@ -30,7 +30,7 @@ $('.ripple').on('mousedown', function(event) {
   
   
   
-  if(category.length == 0 || flairtext.length == 0|| proof.length == 0 || name.length == 0)
+  if(category == '' || flairtext == ''|| proof == '' || name.length == '')
   {
       alert("One or more field has been left blank.");
   }
