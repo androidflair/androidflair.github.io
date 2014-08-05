@@ -4,7 +4,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  
+  <Title>/r/Android developer flair request</Title>
  </head>
  <body>
 
@@ -21,6 +21,11 @@
       <label>Company/Developer name</label>
     </div>
       
+     <h3>Choose a category from below that best describes what type of developer you are.</h3>
+ 
+  <select name="entry.0.single" id="entry_0"><option value="App Developer (Individuals, non-incorporated)">App Developer (Individuals, non-incorporated)</option> <option value="Major Developer (Companies - Facebook, Skype, etc)">Major Developer (Companies - Facebook, Skype, etc)</option> <option value="Custom ROM Dev (CyanogenMod, MIUI, etc)">Custom ROM Dev (CyanogenMod, MIUI, etc)</option> <option value="Unaffiliated Contributor (XDA Dev, ROM bugfix,etc)">Unaffiliated Contributor (XDA Dev, ROM bugfix,etc)</option> <option value="Official Android OS Developers (+ Google Apps)">Official Android OS Developers (+ Google Apps)</option> <option value="Reddit Developer (RES, Reddit BETA, etc)">Reddit Developer (RES, Reddit BETA, etc)</option> <option value="Google Employee (not affiliated with Android)">Google Employee (not affiliated with Android)</option> <option value="Android-related Website (android-central etc)">Android-related Website (android-central etc)</option> <option value="Android Theme Developer (icons, graphics etc)">Android Theme Developer (icons, graphics etc)</option></select>  
+        
+
     <div class="group">      
       <input type="text" id = "proof" required>
       <span class="highlight"></span>
@@ -28,7 +33,15 @@
       <label>Link to proof</label>
    
     </div>
-       <div class="explanation"> <div class="red">IMPORTANT:</div> Please enter an OFFICIAL URL above (Play Store link or official-website). On the webpage the URL points to, your reddit-username must be present in a visible location. (Secondary method: Email deodrus@gmail.com from work-email) </div>
+       <div class="explanation"> <div class="red">IMPORTANT:</div> Possible methods of verification include:
+      <ul>
+           <li>A link to your website that contains your reddit username somewhere on the page.</li>
+           <li>A link to the Google Play page for your app with your username in the description.</li>
+           <li>A Screenshot of your Google Play developer console with relevant information visible.</li>
+      </ul>
+           
+      If none of these options work for you, please use the additional information box below to tell the mods how you would like to verify your identity.
+      </div>
     
       <div class="group">      
       <input type="text" id="flairtext" required>
@@ -40,10 +53,10 @@
      <div class="explanation"> What would you like your flair to say? This will typically be the name of your company or app, but can also include additional information, such as your position within the company. Requests will be honored within reason. </div>
   </form>
   
-  <h3>Choose a category from below that best describes what type of developer you are.</h3>
- 
-  <select name="entry.0.single" id="entry_0"><option value="App Developer (Individuals, non-incorporated)">App Developer (Individuals, non-incorporated)</option> <option value="Major Developer (Companies - Facebook, Skype, etc)">Major Developer (Companies - Facebook, Skype, etc)</option> <option value="Custom ROM Dev (CyanogenMod, MIUI, etc)">Custom ROM Dev (CyanogenMod, MIUI, etc)</option> <option value="Unaffiliated Contributor (XDA Dev, ROM bugfix,etc)">Unaffiliated Contributor (XDA Dev, ROM bugfix,etc)</option> <option value="Official Android OS Developers (+ Google Apps)">Official Android OS Developers (+ Google Apps)</option> <option value="Reddit Developer (RES, Reddit BETA, etc)">Reddit Developer (RES, Reddit BETA, etc)</option> <option value="Google Employee (not affiliated with Android)">Google Employee (not affiliated with Android)</option> <option value="Android-related Website (android-central etc)">Android-related Website (android-central etc)</option> <option value="Android Theme Developer (icons, graphics etc)">Android Theme Developer (icons, graphics etc)</option></select>
+ <h3>Additional information or questions (optional)</h3>
 
+    <textarea rows="1" cols="1" name="text" id="optionalinfo" data-limit="10000"></textarea>
+    
     <h3><red>All done! The button below will redirect you to the "message the mods" page. All you need to to is click "send". Make sure you are logged in before you click it!</red></h3>
   
     <button class="ripple">Submit</button>
