@@ -1,6 +1,6 @@
 * { box-sizing:border-box; }
 
-/* basic stylings ------------------------------------------ */
+
 body 				 {  background: #efefef; }
 .container 		{ 
   font-family:'Roboto';
@@ -20,13 +20,12 @@ font-weight: normal;
 }
 h2 {
 text-align: left;
-
 margin-top: 34px;
 font-family: "Roboto";
 padding: 20px;
 font-weight: normal;
 padding-left: 30px;
-background-color: #3F51B5;
+background: #3F51B5;
 color: #FFF;
 }
 h3 		 {
