@@ -1,7 +1,7 @@
 * { box-sizing:border-box; }
 
 /* basic stylings ------------------------------------------ */
-body 				 { background:url(http://scotch.io/wp-content/uploads/2014/07/61.jpg); }
+body 				 {  background: #efefef; }
 .container 		{ 
   font-family:'Roboto';
   width:600px; 
@@ -9,6 +9,7 @@ body 				 { background:url(http://scotch.io/wp-content/uploads/2014/07/61.jpg); 
   display:block; 
   background:#FFF;
   padding:10px 50px 50px;
+     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 h2 		 { 
   text-align:center; 
