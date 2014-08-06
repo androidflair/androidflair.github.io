@@ -66,7 +66,7 @@ input 				{
   display:block;
   width:300px;
   border:none;
-  border-bottom:1px solid #757575;
+  border-bottom:1px solid #ff9800;
 }
 input:focus 		{ outline:none; }
 
@@ -88,7 +88,7 @@ label 				 {
 input:focus ~ label, input:valid ~ label 		{
   top:-10px;
   font-size:14px;
-  color:#5264AE;
+  color:#ef6c00;
 }
 
 /* BOTTOM BARS ================================= */
@@ -99,7 +99,7 @@ input:focus ~ label, input:valid ~ label 		{
   width:0;
   bottom:1px; 
   position:absolute;
-  background:#5264AE; 
+  background#ef6c00; 
   transition:0.2s ease all; 
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;
@@ -164,7 +164,7 @@ button {
   position: relative;
   width: 136px;
   height: 36px;
-  background: #3f51b5;
+  background: #ff9800;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -174,6 +174,7 @@ button {
 }
 
 .pressed {
+    background: #ef6c00;
   box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.26),
     				0 8px 16px 0 rgba(0, 0, 0, 0.16);
   /*transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);*/
