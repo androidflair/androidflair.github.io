@@ -87,7 +87,7 @@ label 				 {
 
 /* active state */
 input:focus ~ label, input:valid ~ label 		{
-  top:-10px;
+  top:-12px;
   font-size:14px;
   color:#ef6c00;
 }
