@@ -28,6 +28,10 @@ padding-left: 30px;
 background: #3F51B5;
 color: #FFF;
 }
+.boldit{
+ font-weight:bold;
+  font-size:14px;
+}
 h3 		 {
   
   margin-top:34px;
