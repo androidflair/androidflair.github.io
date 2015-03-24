@@ -73,7 +73,7 @@ $('.ripple').on('mousedown', function(event)
   else{
       var toopen = "The text below is for moderator use. Please don't alter it in any way!\n##Category: " + category + "\n##Formatted table data:\n`[" + name + "](" + applink + ")  |" + price +"  |" + platform + "   |" + description +" | " + contact + "`\n[Click here to go to the wiki page](http://www.reddit.com/r/Android/wiki/edit/apps)";
 
-      window.open("http://www.reddit.com/message/compose?to=%2Fr%2FAndroid&subject=Developer%20Wiki%20App%20Submission&message=" + encodeURIComponent(toopen));
+      window.open("http://www.reddit.com/message/compose?to=IAMAN00bie&subject=Developer%20Wiki%20App%20Submission&message=" + encodeURIComponent(toopen));
   
     }
   
