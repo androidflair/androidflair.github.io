@@ -71,9 +71,9 @@ $('.ripple').on('mousedown', function(event)
           alert("One or more field has been left blank.");
   }
   else{
-      var toopen = "#Developer App Wiki Application\n-------------\nThe text below is for moderator use. Please don't alter it.\n##Category: " + category + "\n##Formatted table data:\n`[" + name + "](" + applink + ")  |" + price +"  |" + platform + "   |" + description +" | " + contact + "`\n[Click here to go to the wiki page](http://www.reddit.com/r/Android/wiki/edit/apps)";
+      var toopen = "#Developer App Wiki - Application\n-------------\nThe text below is for moderator use. Please don't alter it.\n##Category: " + category + "\n##Formatted table data:\n`[" + name + "](" + applink + ")  |" + price +"  |" + platform + "   |" + description +" | " + contact + "`\n[Click here to go to the wiki page](http://www.reddit.com/r/Android/wiki/edit/apps)";
       var sendto = "/r/Android";
-      window.open("http://www.reddit.com/message/compose?to=" + encodeURIComponent(sendto) + "&subject=Developer%20Wiki%20App%20Submission&message=" + encodeURIComponent(toopen));
+      window.open("http://www.reddit.com/message/compose?to=" + encodeURIComponent(sendto) + "&subject=Developer%20App%20Wiki%20-%20Application&message=" + encodeURIComponent(toopen));
   
     }
   
