@@ -5,7 +5,7 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <Title>/r/Android developer flair request</Title>
+  <Title>/r/Android developer wiki app application</Title>
  </head>
  <body>
 
@@ -19,34 +19,34 @@
   
   <form>
     
-    <div class="group">      
-      <input type="text" id="name" required>
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>App name</label>
-    </div>
+<h3>Choose a category for your app.</h3>
+
+ <form id="">
+     
+<input type="radio" name="app" value="App" id="app">App
+<input type="radio" name="app" value="Game" id="game">Game
+</form>
       
-     <h3>Choose a category for your app.</h3>
- 
-  <select name="entry.0.single" id="entry_0">
-      
-      <option > -------[ APPS ]-------</option>
-      <option>Books & Reference </option>
-      <option>Business </option>
+  <select name="entry.0.single" id="entry_0" class="box">
+    
+      <option>Choose a category.</option>
+
+      <option>Books & Reference</option>
+      <option>Business</option>
       <option>Comics</option>
-      <option>Communication </option>
-      <option>Education </option>
+      <option>Communication</option>
+      <option>Education</option>
       <option>Entertainment</option>
-      <option>Finance </option>
-      <option>Health & Fitness </option>
+      <option>Finance</option>
+      <option>Health & Fitness</option>
       <option>Libraries and Demo</option>
       <option>Lifestyle </option>
-      <option>(Live) Wallpapers </option>
-      <option>Media & Video </option>
+      <option>(Live) Wallpaper</option>
+      <option>Media & Video</option>
       <option>Medical</option>
       <option>Music & Audio</option>
-      <option>News & Magazines </option>
-      <option>Personalization </option>
+      <option>News & Magazines</option>
+      <option>Personalization</option>
       <option>Photography </option>
       <option>Productivity </option>
       <option>Shopping</option>
@@ -55,49 +55,100 @@
       <option>Tools</option>
         <option>Transportation</option>
         <option>Travel & Local</option>
+              <option>Weather</option>
         <option>Widgets</option>
-      
-      <option class="boldit"><strong>Games</strong> </option>
-      </select>  
+  </select>  
         
+<select name="entry.0.single" id="entry_1" class = "box">
+      
+      <option>Choose a category.</option>
+      <option>Action</option>
+       <option>Adventure</option>
+          <option>Arcade</option>
+          <option>Card</option>
+          <option>Casino</option>
+          <option>Casual</option>
+          <option>Education</option>
+          <option>Family</option>
+          <option>Music</option>
+          <option>Puzzle</option>
+          <option>Racing</option>
+      <option>Role Playing</option>
+          <option>Simulation</option>
+          <option>Sports</option>
+          <option>Strategy</option>
+          <option>Trivia</option>
+                <option>World</option>
+
+
+  </select> 
 
     <div class="group">      
-      <input type="text" id = "proof" required>
+      <input type="text" id="name" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label>Link to proof</label>
+      <label>App name</label>
+    </div>
+      
+     <div class="group">      
+      <input type="text" id = "applink" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Link to app</label>
    
     </div>
-       <div class="explanation"> <div class="red"> Typical methods of verification:</div>
-      <ul>
-           <li>A link to your website that contains your reddit username somewhere on the page.</li>
-           <li>A link to the Google Play page for your app with your username in the description.</li>
-           <li>A Screenshot of your Google Play developer console with relevant information visible.</li>
-      </ul>
-           
-      If none of these options work for you, please use the additional information box below to tell the mods how you would like to verify your identity.
-      </div>
-    
-      <div class="group">      
-      <input type="text" id="flairtext" required>
+      <div class="explanation"> Must include http:// at beginning.</div>
+      
+      <h3>Is your app designed for phones or tablets (or both)?</h3>
+       <select name="entry.0.single" id="entry_2" class="box">
+      
+      <option>Phone</option>
+      <option>Tablet</option>
+      <option>Both</option>
+      </select>
+      
+    <div class="group">      
+      <input type="text" id = "contact" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label>Custom flair text</label>
-    
+      <label>Contact</label>
+   
     </div>
-     <p class="explanation"> 
-      <strong>Example: Developer - MyApp</strong></p>
-  </form>
-  
- <h3>Additional information or questions (optional)</h3>
-
-    <textarea rows="1" cols="1" name="text" id="optionalinfo" data-limit="10000"></textarea>
+      
+       <div class="explanation">How users can contact you. This will usually be an email, but it's up to you.</div>
     
-    <h3><red>Almost done! The button below will redirect you to the "message the mods" page. All you need to to is click "send". Make sure you are logged in before you click it!</red></h3>
+    <div class="group">      
+      <input type="text" id = "price" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>App price</label>
+   
+    </div>
+       <div class="explanation">How much does your app cost? Type one of the following:
+         <ul>
+         <li>Free</li>
+         <li>Free + IAP</li>
+         <li>or the price of the app, if it's paid.</li>
+         </ul></div>
+    
+  
+ <h3>Provide a brief discription of your app:</h3>
+
+    <div class="group">      
+      <input type="text" id = "optionalinfo" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label></label>
+   
+    </div>
+    
+    <h3><red>Almost done! The button below will redirect you to the "message the mods" page. All you need to to is click "send". If you're not already logged into reddit, you'll be prompted to do so.</red></h3>
   
     <button class="ripple">Submit</button>
+      
      </div>
-</div>
+    </div>
+
 
      <script type='text/javascript' src="thescript.js"></script>
     </body>

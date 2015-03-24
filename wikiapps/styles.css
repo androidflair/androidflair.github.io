@@ -11,6 +11,13 @@ body 				 {  background: #efefef; }
  
      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
+input[type="radio"] {
+  padding: 0px;
+  display: inline-block;
+  width: auto;
+  padding-bottom: 10PX!IMPORTANT;
+  MARGIN-bottom: 23px;
+}
 h1 {
 font-size: 24px;
 font-weight: normal;
@@ -52,8 +59,9 @@ h2 small {
   margin-bottom:15px; 
  margin-top:20px;
 }
-#optionalinfo, #entry_0{
+#optionalinfo, .box{
     padding:5px;
+    outline: none!important;
     font-size:14px;
     font-family: 'Roboto';
     border: 1px solid #d8d8d8;
