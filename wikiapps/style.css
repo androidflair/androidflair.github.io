@@ -5,18 +5,26 @@ body 				 {  background: #efefef; }
 .container 		{ 
   font-family:'Roboto';
   width:600px; 
-  margin:30px auto 0; 
+  margin:40px auto 40px; 
   display:block; 
   background:#FFF;
  
      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
+input[type="radio"] {
+  padding: 0px;
+  display: inline-block;
+  width: auto;
+  padding-bottom: 10PX!IMPORTANT;
+  MARGIN-bottom: 23px;
+}
+
 h1 {
 font-size: 24px;
 font-weight: normal;
 }
 .innercontainer{
-     padding:1px 50px 50px;
+     padding:1px 50px 25px;
 }
 h2 {
 text-align: left;
@@ -27,6 +35,10 @@ font-weight: normal;
 padding-left: 30px;
 background: #3F51B5;
 color: #FFF;
+}
+.boldit{
+ font-weight:bold;
+  font-size:14px;
 }
 h3 		 {
   
@@ -48,8 +60,10 @@ h2 small {
   margin-bottom:15px; 
  margin-top:20px;
 }
-#optionalinfo, #entry_0{
+#optionalinfo, .box{
     padding:5px;
+    outline: none!important;
+    font-size:14px;
     font-family: 'Roboto';
     border: 1px solid #d8d8d8;
     border-radius:2px;
@@ -66,7 +80,7 @@ input 				{
   display:block;
   width:300px;
   border:none;
-  border-bottom:1px solid #757575;
+  border-bottom:1px solid #ff9800;
 }
 input:focus 		{ outline:none; }
 
@@ -86,9 +100,9 @@ label 				 {
 
 /* active state */
 input:focus ~ label, input:valid ~ label 		{
-  top:-10px;
+  top:-12px;
   font-size:14px;
-  color:#5264AE;
+  color:#ef6c00;
 }
 
 /* BOTTOM BARS ================================= */
@@ -99,7 +113,7 @@ input:focus ~ label, input:valid ~ label 		{
   width:0;
   bottom:1px; 
   position:absolute;
-  background:#5264AE; 
+  background#ef6c00; 
   transition:0.2s ease all; 
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;
@@ -164,7 +178,7 @@ button {
   position: relative;
   width: 136px;
   height: 36px;
-  background: #3f51b5;
+  background: #ff9800;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -174,6 +188,7 @@ button {
 }
 
 .pressed {
+    background: #ef6c00;
   box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.26),
     				0 8px 16px 0 rgba(0, 0, 0, 0.16);
   /*transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);*/
