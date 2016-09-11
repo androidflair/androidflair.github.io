@@ -9,7 +9,7 @@ var uname;
 $( document ).ready(function() {
    // alert("One or more required field has been left blank.");
 
-$(".ripple").mousedown( function() {
+$(".ripple").mousedown( function(event) {
 
 
 	$(this).append('<div class="rippleEffect"/>');
